@@ -1,5 +1,6 @@
 " Vim color file: isotake
 " Author: Takahiro Yoshihara <tacahiroy@gmail.com>
+"
 " This is based on seashell.vim by Gerald S. Williams
 " http://www.vim.org/scripts/script.php?script_id=589
 
@@ -39,8 +40,8 @@ if &background == 'light'
   hi  SignColor     guibg=Grey60
   hi  SignColumn    guibg=LightGrey      guifg=LightGrey
   hi  Statement     guifg=DarkRed        ctermfg=DarkRed
-  hi  StatusLine    gui=NONE             guibg=SkyBlue       guifg=Black       cterm=NONE      ctermfg=16    ctermbg=LightCyan
-  hi  StatusLineNC  gui=NONE             guibg=Gray
+  hi  StatusLine    gui=NONE             guibg=SkyBlue       guifg=Black       cterm=NONE      ctermfg=22    ctermbg=121
+  hi  StatusLineNC  gui=NONE             guibg=Gray          guifg=Black       cterm=NONE      ctermfg=34    ctermbg=231
   " bar
   hi  TabLineFill   ctermfg=172 ctermbg=222
   " active tab
