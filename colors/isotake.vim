@@ -41,7 +41,7 @@ if &background == 'light'
   hi  SignColumn    guibg=LightGrey      guifg=LightGrey
   hi  Statement     guifg=DarkRed        ctermfg=DarkRed
   hi  StatusLine    gui=NONE             guibg=SkyBlue       guifg=Black       cterm=NONE      ctermfg=22    ctermbg=121
-  hi  StatusLineNC  gui=NONE             guibg=Gray          guifg=Black       cterm=NONE      ctermfg=34    ctermbg=231
+  hi  StatusLineNC  gui=NONE             guibg=Gray          guifg=Black       cterm=NONE      ctermfg=34    ctermbg=194
   " bar
   hi  TabLineFill   ctermfg=172 ctermbg=222
   " active tab
