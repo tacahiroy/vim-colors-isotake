@@ -72,6 +72,8 @@ else
   hi     Normal        guibg=#010b36        guifg=Grey80          ctermfg=7
   hi     PreProc       ctermfg=Magenta
   hi     Search        guibg=Gold3          ctermbg=43            ctermfg=25
+  hi     SpellBad      ctermbg=213          ctermfg=0
+  hi     SpellCap      ctermbg=12           ctermfg=27
   hi     Statement     guifg=Brown3         ctermfg=DarkRed
   hi     StatusLine    guibg=DarkGreen      guifg=White           ctermfg=White     ctermbg=DarkGreen
   hi     StatusLineNC  guifg=Gray
