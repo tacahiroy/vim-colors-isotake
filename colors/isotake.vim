@@ -63,6 +63,7 @@ else
   hi     DiffChange    guibg=Gray30         ctermbg=DarkCyan      ctermfg=White
   hi     DiffDelete    guibg=DarkRed        guifg=Black           ctermbg=DarkRed   ctermfg=White
   hi     DiffText      gui=NONE             guibg=DarkCyan        ctermbg=DarkCyan  ctermfg=Yellow
+  hi     Error         cterm=reverse        ctermfg=6
   hi     FileName      gui=NONE             guibg=White           guifg=Blue
   hi     FoldColumn    guibg=gray10
   hi     Folded        guibg=gray20
