@@ -76,8 +76,8 @@ else
   hi     SpellBad      ctermbg=213          ctermfg=0
   hi     SpellCap      ctermbg=12           ctermfg=27
   hi     Statement     guifg=Brown3         ctermfg=DarkRed
-  hi     StatusLine    guibg=DarkGreen      guifg=White           ctermfg=White     ctermbg=DarkGreen
-  hi     StatusLineNC  guifg=Gray
+  hi     StatusLine    cterm=NONE           ctermbg=38
+  hi     StatusLineNC  cterm=NONE           ctermbg=159           ctermfg=75
   hi     Type          gui=NONE             guifg=#7f98fa
   hi     VertSplit     guifg=Gray
 endif
