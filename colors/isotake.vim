@@ -80,7 +80,7 @@ else
   hi  Search        guibg=Gold3          ctermbg=43           ctermfg=25
   hi  SpellBad      ctermbg=213          ctermfg=0
   hi  SpellCap      ctermbg=12           ctermfg=27
-  hi  Statement     guifg=Brown3         ctermfg=124
+  hi  Statement     ctermfg=208
   hi  StatusLine    cterm=NONE           ctermbg=38
   hi  StatusLineNC  cterm=NONE           ctermbg=159          ctermfg=75
   hi  Type          gui=NONE             guifg=#7f98fa
