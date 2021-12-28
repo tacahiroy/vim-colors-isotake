@@ -16,23 +16,23 @@ hi CursorIM gui=NONE guibg=#67db57
 
 if &background == 'light'
 
-  hi  ColorColumn       ctermbg=222     ctermfg=016
+  hi  ColorColumn       ctermbg=222          ctermfg=016
   hi  Comment           ctermfg=32
   hi  Constant          guifg=DeepPink
-  hi  CursorLine        guibg=LightGreen  cterm=NONE      ctermbg=193
-  hi  CursorLineNr      guibg=#ffdfe6     guifg=Brown     cterm=NONE    ctermbg=NONE  ctermfg=208
+  hi  CursorLine        guibg=LightGreen     cterm=NONE       ctermbg=193
+  hi  CursorLineNr      guibg=#ffdfe6        guifg=Brown      cterm=NONE   ctermbg=NONE  ctermfg=208
   hi  DiffAdd           ctermbg=114          ctermfg=28
   hi  DiffChange        ctermbg=123          ctermfg=33
   hi  DiffDelete        ctermbg=218          ctermfg=206
   hi  DiffText          ctermbg=117          ctermfg=33
   hi  Error             ctermbg=1            ctermfg=195
   hi  ErrorMsg          ctermbg=1            ctermfg=195
-  hi  FileName          guifg=DarkRed     guibg=White     cterm=NONE    ctermfg=199
-  hi  Folded            guibg=Pink        guifg=DarkBlue  cterm=NONE    ctermbg=223   ctermfg=18
+  hi  FileName          guifg=DarkRed        guibg=White      cterm=NONE   ctermfg=199
+  hi  Folded            guibg=Pink           guifg=DarkBlue   cterm=NONE   ctermbg=223   ctermfg=18
   hi  Identifier        guifg=#006f6f        ctermfg=028
-  hi  IncSearch         guibg=Pink           guifg=DarkGrey    gui=NONE
-  hi  LineNr            guibg=#ffdfe6        guifg=Gray30      cterm=NONE      ctermbg=NONE  ctermfg=007
-  hi  MatchParen        guibg=turquoise
+  hi  IncSearch         guibg=Pink           guifg=DarkGrey   gui=NONE
+  hi  LineNr            cterm=NONE           ctermbg=NONE     ctermfg=114
+  hi  MatchParen        cterm=NONE           ctermbg=194      ctermfg=NONE
   hi  NonText           guibg=LavenderBlush  guifg=Gray30
   hi  Normal            ctermfg=18
   hi  Pmenu             ctermfg=18           ctermbg=195
@@ -40,12 +40,12 @@ if &background == 'light'
   hi  PmenuSel          ctermfg=21           ctermbg=153
   hi  PmenuThumb        ctermbg=45
   hi  PreProc           guifg=DarkMagenta
-  hi  Search            guibg=LightGreen     guifg=DarKRed     ctermbg=159   ctermfg=52
+  hi  Search            guibg=LightGreen     guifg=DarKRed    ctermbg=159  ctermfg=52
   hi  SignColor         guibg=Grey60
   hi  SignColumn        guibg=LightGrey      guifg=LightGrey
   hi  Statement         guifg=DarkRed        ctermfg=DarkRed
-  hi  StatusLine        guibg=SkyBlue        guifg=Black       cterm=NONE      ctermfg=22    ctermbg=121
-  hi  StatusLineNC      guibg=Gray           guifg=Black       cterm=NONE      ctermfg=34    ctermbg=194
+  hi  StatusLine        guibg=SkyBlue        guifg=Black      cterm=NONE   ctermfg=22    ctermbg=121
+  hi  StatusLineNC      guibg=Gray           guifg=Black      cterm=NONE   ctermfg=34    ctermbg=194
   hi  StatusLineTerm    ctermbg=158          ctermfg=26
   hi  StatusLineTermNC  ctermbg=193          ctermfg=76
   "   bar
@@ -56,7 +56,7 @@ if &background == 'light'
   hi  TabLine           ctermbg=255
   hi  Type              gui=NONE
   hi  VertSplit         gui=NONE             guibg=Gray
-  hi  Visual            guibg=#ffd32e        gui=NONE          cterm=NONE      ctermbg=45    ctermfg=21
+  hi  Visual            guibg=#ffd32e        gui=NONE         cterm=NONE   ctermbg=45    ctermfg=21
   hi  vimGroup          gui=NONE
   hi  vimGroupName      gui=NONE
 
