@@ -15,7 +15,7 @@ if &background == 'light'
 
   hi  ColorColumn       ctermbg=222    ctermfg=016
   hi  Comment           ctermfg=32
-  hi  CursorLine        cterm=NONE     ctermbg=NONE  ctermfg=33
+  hi  CursorLine        cterm=NONE     ctermbg=NONE  ctermfg=203
   hi  CursorLineNr      cterm=NONE     ctermbg=NONE  ctermfg=214
   hi  DiffAdd           ctermbg=114    ctermfg=28
   hi  DiffChange        ctermbg=123    ctermfg=33
