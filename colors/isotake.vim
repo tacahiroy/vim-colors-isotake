@@ -13,38 +13,38 @@ let g:colors_name = "isotake"
 
 if &background == 'light'
 
-  hi  ColorColumn       ctermbg=222    ctermfg=016
+  hi  ColorColumn       ctermbg=222  ctermfg=016
   hi  Comment           ctermfg=32
-  hi  CursorLine        cterm=NONE     ctermbg=NONE  ctermfg=203
-  hi  CursorLineNr      cterm=NONE     ctermbg=NONE  ctermfg=214
-  hi  DiffAdd           ctermbg=114    ctermfg=28
-  hi  DiffChange        ctermbg=123    ctermfg=33
-  hi  DiffDelete        ctermbg=218    ctermfg=206
-  hi  DiffText          ctermbg=117    ctermfg=33
-  hi  Error             ctermbg=1      ctermfg=195
-  hi  ErrorMsg          ctermbg=1      ctermfg=195
-  hi  Folded            ctermbg=223    ctermfg=18    cterm=NONE
-  hi  IncSearch         cterm=reverse
-  hi  LineNr            cterm=NONE     ctermbg=NONE  ctermfg=114
-  hi  MatchParen        cterm=NONE     ctermbg=194   ctermfg=NONE
+  hi  CursorLine        cterm=NONE   ctermbg=NONE  ctermfg=203
+  hi  CursorLineNr      cterm=NONE   ctermbg=NONE  ctermfg=214
+  hi  DiffAdd           ctermbg=114  ctermfg=28
+  hi  DiffChange        ctermbg=123  ctermfg=33
+  hi  DiffDelete        ctermbg=218  ctermfg=206
+  hi  DiffText          ctermbg=117  ctermfg=33
+  hi  Error             ctermbg=1    ctermfg=195
+  hi  ErrorMsg          ctermbg=1    ctermfg=195
+  hi  Folded            cterm=NONE   ctermbg=223   ctermfg=18
+  hi  IncSearch         cterm=NONE   ctermfg=16    ctermbg=118
+  hi  LineNr            cterm=NONE   ctermbg=NONE  ctermfg=114
+  hi  MatchParen        cterm=NONE   ctermbg=194   ctermfg=NONE
   hi  Normal            ctermfg=18
-  hi  Pmenu             ctermfg=18     ctermbg=195
+  hi  Pmenu             ctermfg=18   ctermbg=195
   hi  PmenuSbar         ctermbg=159
-  hi  PmenuSel          ctermfg=21     ctermbg=153
+  hi  PmenuSel          ctermfg=21   ctermbg=153
   hi  PmenuThumb        ctermbg=45
-  hi  Search            ctermbg=159    ctermfg=52
-  hi  StatusLine        cterm=NONE     ctermfg=22    ctermbg=121
-  hi  StatusLineNC      cterm=NONE     ctermfg=34    ctermbg=194
-  hi  StatusLineTerm    ctermbg=158    ctermfg=26
-  hi  StatusLineTermNC  ctermbg=193    ctermfg=76
+  hi  Search            ctermbg=193  ctermfg=16
+  hi  StatusLine        cterm=NONE   ctermfg=22    ctermbg=121
+  hi  StatusLineNC      cterm=NONE   ctermfg=34    ctermbg=194
+  hi  StatusLineTerm    ctermbg=158  ctermfg=26
+  hi  StatusLineTermNC  ctermbg=193  ctermfg=76
   "   bar
-  hi  TabLineFill       ctermfg=172    ctermbg=222
+  hi  TabLineFill       ctermfg=172  ctermbg=222
   "   active            tab
-  hi  TabLineSel        ctermbg=195    ctermfg=22
+  hi  TabLineSel        ctermbg=195  ctermfg=22
   "   inactive          tabs
-  hi  TabLine           ctermbg=254    ctermfg=232   cterm=NONE
-  hi  VertSplit         ctermbg=254    ctermfg=153   cterm=NONE
-  hi  Visual            ctermbg=45     ctermfg=21    cterm=NONE
+  hi  TabLine           cterm=NONE   ctermbg=254   ctermfg=232
+  hi  VertSplit         cterm=NONE   ctermbg=254   ctermfg=153
+  hi  Visual            cterm=NONE   ctermbg=45    ctermfg=21
 
 else
   " backgroung=dark
